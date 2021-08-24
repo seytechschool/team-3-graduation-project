@@ -1,0 +1,134 @@
+.skills {
+    display: flex;
+    width: fit-content;
+    margin: none;
+    text-align: left;
+}
+.skills-box{
+    display: inline-block;
+    width: 44%;
+    margin: 20px 0;
+}
+.tech-skills{
+    margin: 10px;
+    padding: 3px;
+    
+
+}
+.exp-per1{
+    font-weight: bold;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 45%;
+    
+}
+.tech-skills .row-one{
+    background-color: #ff4f00;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: solid 1px #eee;
+    width: 40%;
+    
+}
+.exp-per2{
+    font-weight: bold;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 10%;
+    
+}
+.tech-skills .row-two{
+    background-color: #ff4f00;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: solid 1px #eee;
+    width: 75%;
+    
+}
+.exp-per3{
+    font-weight: bold;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 20%;
+    
+}
+.tech-skills .row-three{
+    background-color: #ff4f00;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: solid 1px #eee;
+    width: 65%;
+    
+}
+.exp-per4{
+    font-weight: bold;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 35%;
+    
+}
+.tech-skills .row-four{
+    background-color: #ff4f00;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: solid 1px #eee;
+    width: 50%;
+    
+}
+.exp-per5{
+    font-weight: bold;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 5%;
+    
+}
+.tech-skills .row-five{
+    background-color: #ff4f00;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: solid 1px #eee;
+    width: 80%;
+    
+}
+
+.skills-box .language{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    border: solid 1px #eee;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    margin: 10px;
+}
+.skills-box .language:hover{
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
+    margin: 0px;
+}
+.skills-box .language span{
+    display: inline-block;
+    padding: 15px 10px;
+    color: white;
+    background-color: #ff4f00;
+    border-radius: 50px;
+    margin-right: 20px;
+}
