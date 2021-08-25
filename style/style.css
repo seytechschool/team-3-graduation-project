@@ -7,21 +7,24 @@ body {
   font-family: "Rambla", sans-serif;
 }
 
-.container {
-  margin-left: 280px;
+.all-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 1600px;
+  margin: 0 auto; */
+}
+
+header {
+  flex-basis: 15%;
+}
+
+.all-container {
+  flex-basis: 85%;
 }
 
 section {
   padding: 50px 0;
 }
-
-
-
-
-
-
-
-
 
 * h1 {
   font-size: 1.7em;
@@ -44,9 +47,10 @@ section {
 
 /***** id=header section @Emre Pirci *****/
 header {
-  background-color: #eee;
-  width: 200px;
-  position: fixed;
+  background-color: white;
+  min-width: 280px;
+  position: sticky;
+  top: 0;
   height: 100vh;
   text-align: center;
   padding: 30px;
@@ -95,7 +99,6 @@ header ul li a:hover {
   background: url("../img/cover.jpg");
   height: calc(100vh - 150px);
   background-size: cover;
-  height: 100vh;
 }
 
 #home img {
@@ -162,78 +165,71 @@ header ul li a:hover {
 }
 
 /****** id=about section @Aikel Shukurbekova ******/
-#about .myimg{
+#about .myimg {
   max-width: 50%;
   flex-basis: 50%;
-
-
 }
-#about h1{
+#about h1 {
   text-align: left;
   border-bottom: 1px solid black;
   /* width: 500px; */
-
 }
-#about img{
+#about img {
   width: 90%;
-
 }
-#about .img-about{
+#about .img-about {
   padding-left: 20px;
-
 }
 
 #about {
-display: flex;
+  display: flex;
 }
-#about .myinfo{
+#about .myinfo {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
 }
 
-#about table{
+#about table {
   text-align: left;
 }
-#about table th{
+#about table th {
   font-weight: 600;
   padding-bottom: 5px;
   line-height: 25px;
 }
-#about button{
+#about button {
   margin-top: 20px;
   width: 200px;
   height: 50px;
-  background-color:   #ff4f00;
+  background-color: #ff4f00;
   color: white;
   border: none;
   transition: all 0.3s;
-
-
 }
-#about button:hover{
+#about button:hover {
   background-color: black;
-  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29)
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
 }
 
 /****** id=what section @Adilkhan Marzen  ******/
-#what .container h1, h3{
+#what .container h1,
+h3 {
   text-align: center;
 }
 
-#what .wrapper{
+#what .wrapper {
   display: flex;
   flex-wrap: wrap;
   height: 400px;
   grid-gap: 30px;
 }
 
-#what .box{
+#what .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #eee
-  ;
+  border: 1px solid #eee;
   text-align: center;
   font-size: 20px;
   transition: all 0.5s;
@@ -242,7 +238,7 @@ display: flex;
   min-height: 50%;
 }
 
-#what .box:hover{
+#what .box:hover {
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
   margin: 0px;
   border: 1px solid #ff4f00;
@@ -253,59 +249,55 @@ display: flex;
 
 /******  id=experience section @Daniyar Murzaguzhinov ******/
 #experience .experience {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 #experience .experience-h {
-    text-align: center;
+  text-align: center;
 }
 
 #experience .experience-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 25px;
-    margin: 25px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 25px;
+  margin: 25px;
 }
 
 #experience .experience-box {
-    border: solid 1px #eee;
-    padding: 20px;
+  border: solid 1px #eee;
+  padding: 20px;
 }
 
 #experience .experience-box:hover {
-    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 #experience .experience-box:hover .box-header .box-years {
-    padding: 10px 50px;
-    width: 70%;
+  padding: 10px 50px;
+  width: 70%;
 }
 
 #experience .box-header {
-    position: relative;
-
+  position: relative;
 }
 #experience .box-years {
-    display: inline-block;
-    padding: 10px;
-    background-color: #ff4f00;
-    transition: all .15s;
-    color: white;
+  display: inline-block;
+  padding: 10px;
+  background-color: #ff4f00;
+  transition: all 0.15s;
+  color: white;
 }
 
 #experience .box-icon {
-    position: absolute;
-    right: 20px;
-    top: 0;
-    padding: 5px;
-    background-color: #ff4f00;
-    width: 30px;
-    border-radius: 50%;
-    z-index: 2;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  padding: 5px;
+  background-color: #ff4f00;
+  width: 30px;
+  border-radius: 50%;
+  z-index: 2;
 }
-
-
-
 
 /******i d=skills section @Jantai Aidyraliev ******/
 #skills .skills {
@@ -430,4 +422,3 @@ display: flex;
   border-radius: 50px;
   margin-right: 20px;
 }
-
