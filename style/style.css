@@ -164,6 +164,39 @@ header ul li a:hover {
 /****** id=about section @Aikel Shukurbekova ******/
 
 /****** id=what section @Adilkhan Marzen  ******/
+.container h1, h3{
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  grid-gap: 30px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee
+  ;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s;
+  width: 22%;
+  margin: auto; 
+  min-height: 50%;
+}
+
+.box:hover{
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
+  margin: 0px;
+  border: 1px solid #ff4f00;
+  border-radius: 40px;
+  color: #ff4f00;
+  font-weight: bold;
+}
 
 /******  id=experience section @Daniyar Murzaguzhinov ******/
 .experience {
