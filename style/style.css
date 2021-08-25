@@ -213,9 +213,63 @@ header ul li a:hover {
   font-weight: bold;
 }
 
-/******  id=what section @Daniyar Murzaguzhinov ******/
+/******  id=experience section @Daniyar Murzaguzhinov ******/
+.experience {
+    padding: 50px 0;
+}
 
-/******id=skills section @Jantai Aidyraliev ******/
+.experience-h {
+    text-align: center;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+    margin: 25px;
+}
+
+.experience-box {
+    border: solid 1px #eee;
+    padding: 20px;
+}
+
+.experience-box:hover {
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.experience-box:hover .box-header .box-years {
+    padding: 10px 50px;
+    width: 70%;
+}
+
+.box-header {
+    position: relative;
+
+}
+.box-years {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ff4f00;
+    transition: all .15s;
+    color: white;
+}
+
+.box-icon {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    padding: 5px;
+    background-color: #ff4f00;
+    width: 30px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+
+
+/******i d=skills section @Jantai Aidyraliev ******/
 .skills {
   display: flex;
   width: fit-content;
