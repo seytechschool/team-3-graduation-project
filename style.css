@@ -1,134 +1,307 @@
+/***** Core Style *****/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rambla", sans-serif;
+}
+
+.container {
+  margin-left: 280px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.info {
+  height: 90vh;
+}
+
+.top {
+  height: 10vh;
+  text-align: center;
+}
+
+.top button {
+  padding: 0.2em 15em;
+  border-radius: 1em;
+  font-size: 1.2em;
+  border: none;
+  background-color: #ff4f00;
+  color: #eee;
+}
+
+.top button:hover {
+  color: white;
+  background-color: black;
+}
+
+* h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+  padding-bottom: 1.2em;
+}
+
+* h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+* p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  padding-bottom: 1.2em;
+  padding-top: 1.2em;
+  width: 80%;
+}
+
+/***** id=home section @Emre Pirci *****/
+header {
+  background-color: #eee;
+  width: 200px;
+  position: fixed;
+  height: 100vh;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 29%);
+}
+
+header img {
+  width: 100px;
+  border-radius: 100px;
+  margin-bottom: 1.5em;
+}
+
+header h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+header ul {
+  text-align: left;
+  font-size: 1.1em;
+  font-family: 500;
+}
+
+header ul li {
+  margin: 10px;
+  border-bottom: solid 1px #eee;
+  list-style: none;
+}
+
+header ul li a {
+  color: #090a0c;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+header ul li a:hover {
+  color: #ff4f00;
+}
+
+/***** id=home section @Emre Pirci *****/
+#home {
+  text-align: center;
+  padding-top: 100px;
+  background: url("../img/cover.jpg");
+  height: calc(100vh - 150px);
+  background-size: cover;
+  height: 100vh;
+}
+
+#home img {
+  width: 200px;
+  border-radius: 100px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+#home .title {
+  font-size: 50px;
+  color: #000;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+#home .title:hover {
+  color: white;
+}
+
+#home .title span {
+  transition: all 0.3s;
+}
+
+#home .btn {
+  border: solid 3px white;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-block;
+  padding: 15px;
+  background-color: white;
+}
+
+#home .btn:hover {
+  background: none;
+}
+
+#home .btn:hover a {
+  color: white;
+}
+
+#home .btn a {
+  color: #090a0c;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s;
+}
+
+#home .btn.reverse {
+  background: none;
+  color: white;
+}
+
+#home .btn.reverse:hover {
+  background-color: white;
+  color: black;
+}
+
+#home .btn.reverse:hover a {
+  color: #090a0c;
+}
+
+#home .btn.reverse a {
+  color: white;
+}
+
+/****** id=about section @Aikel Shukurbekova ******/
+
+/****** id=what section @Adilkhan Marzen  ******/
+
+/******  id=what section @Daniyar Murzaguzhinov ******/
+
+/******id=skills section @Jantai Aidyraliev ******/
 .skills {
-    display: flex;
-    width: fit-content;
-    margin: none;
-    text-align: left;
+  display: flex;
+  width: fit-content;
+  margin: none;
+  text-align: left;
 }
-.skills-box{
-    display: inline-block;
-    width: 44%;
-    margin: 20px 0;
+.skills-box {
+  display: inline-block;
+  width: 44%;
+  margin: 20px 0;
 }
-.tech-skills{
-    margin: 10px;
-    padding: 3px;
-    
-
+.tech-skills {
+  margin: 10px;
+  padding: 3px;
 }
-.exp-per1{
-    font-weight: bold;
-    border: solid 1px #eee;
-    padding: 5px 10px;
-    display: inline-block;
-    background-color: lightgray;
-    width: 45%;
-    
+.exp-per1 {
+  font-weight: bold;
+  border: solid 1px #eee;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: lightgray;
+  width: 45%;
 }
-.tech-skills .row-one{
-    background-color: #ff4f00;
-    color: white;
-    padding: 5px 10px;
-    display: inline-block;
-    transition: all 0.3s;
-    border: solid 1px #eee;
-    width: 40%;
-    
+.tech-skills .row-one {
+  background-color: #ff4f00;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: solid 1px #eee;
+  width: 40%;
 }
-.exp-per2{
-    font-weight: bold;
-    border: solid 1px #eee;
-    padding: 5px 10px;
-    display: inline-block;
-    background-color: lightgray;
-    width: 10%;
-    
+.exp-per2 {
+  font-weight: bold;
+  border: solid 1px #eee;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: lightgray;
+  width: 10%;
 }
-.tech-skills .row-two{
-    background-color: #ff4f00;
-    color: white;
-    padding: 5px 10px;
-    display: inline-block;
-    transition: all 0.3s;
-    border: solid 1px #eee;
-    width: 75%;
-    
+.tech-skills .row-two {
+  background-color: #ff4f00;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: solid 1px #eee;
+  width: 75%;
 }
-.exp-per3{
-    font-weight: bold;
-    border: solid 1px #eee;
-    padding: 5px 10px;
-    display: inline-block;
-    background-color: lightgray;
-    width: 20%;
-    
+.exp-per3 {
+  font-weight: bold;
+  border: solid 1px #eee;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: lightgray;
+  width: 20%;
 }
-.tech-skills .row-three{
-    background-color: #ff4f00;
-    color: white;
-    padding: 5px 10px;
-    display: inline-block;
-    transition: all 0.3s;
-    border: solid 1px #eee;
-    width: 65%;
-    
+.tech-skills .row-three {
+  background-color: #ff4f00;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: solid 1px #eee;
+  width: 65%;
 }
-.exp-per4{
-    font-weight: bold;
-    border: solid 1px #eee;
-    padding: 5px 10px;
-    display: inline-block;
-    background-color: lightgray;
-    width: 35%;
-    
+.exp-per4 {
+  font-weight: bold;
+  border: solid 1px #eee;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: lightgray;
+  width: 35%;
 }
-.tech-skills .row-four{
-    background-color: #ff4f00;
-    color: white;
-    padding: 5px 10px;
-    display: inline-block;
-    transition: all 0.3s;
-    border: solid 1px #eee;
-    width: 50%;
-    
+.tech-skills .row-four {
+  background-color: #ff4f00;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: solid 1px #eee;
+  width: 50%;
 }
-.exp-per5{
-    font-weight: bold;
-    border: solid 1px #eee;
-    padding: 5px 10px;
-    display: inline-block;
-    background-color: lightgray;
-    width: 5%;
-    
+.exp-per5 {
+  font-weight: bold;
+  border: solid 1px #eee;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: lightgray;
+  width: 5%;
 }
-.tech-skills .row-five{
-    background-color: #ff4f00;
-    color: white;
-    padding: 5px 10px;
-    display: inline-block;
-    transition: all 0.3s;
-    border: solid 1px #eee;
-    width: 80%;
-    
+.tech-skills .row-five {
+  background-color: #ff4f00;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: solid 1px #eee;
+  width: 80%;
 }
 
-.skills-box .language{
-    display: inline-block;
-    width: 40%;
-    padding: 20px;
-    border: solid 1px #eee;
-    box-sizing: border-box;
-    transition: all 0.3s;
-    margin: 10px;
+.skills-box .language {
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  border: solid 1px #eee;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  margin: 10px;
 }
-.skills-box .language:hover{
-    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
-    margin: 0px;
+.skills-box .language:hover {
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
+  margin: 0px;
 }
-.skills-box .language span{
-    display: inline-block;
-    padding: 15px 10px;
-    color: white;
-    background-color: #ff4f00;
-    border-radius: 50px;
-    margin-right: 20px;
+.skills-box .language span {
+  display: inline-block;
+  padding: 15px 10px;
+  color: white;
+  background-color: #ff4f00;
+  border-radius: 50px;
+  margin-right: 20px;
 }

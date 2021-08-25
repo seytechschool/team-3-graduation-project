@@ -1,5 +1,17 @@
-# team-3-graduation-project
-Resume 2 Graduation Project
+# Resume Responsive Page
 
+> HTML & CSS Portfolio Project.
 
-https://seytechschool.github.io/team-3-graduation-project/
+## Live Demo
+
+Preview: https://seytechschool.github.io/team-3-graduation-project/
+
+## What I Learned:
+
+- Simple landing page using **HTML 5, CSS 3 and Flexbox**
+- Using **semantic HTML** tags, elements
+- Multiple formatting with **common class usage**
+
+## Possible Improvements
+
+> Any type of suggestions/improvements to this repo are always welcome.
