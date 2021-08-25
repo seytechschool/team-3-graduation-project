@@ -422,3 +422,29 @@ h3 {
   border-radius: 50px;
   margin-right: 20px;
 }
+
+/* Common Desktop Screen Resolution-1366×768 – 23.49% */
+@media screen and (max-width: 1024px) {
+  header {
+    display: none;
+  }
+
+  .all-container {
+    flex-basis: auto;
+  }
+}
+
+/* Common Tablet Screen Resolution-768×1024 – 51.98% */
+
+/* Common Mobile Screen Resolution-375×640 – 17.91% */
+@media screen and (max-width: 375px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #home img {
+    text-align: center;
+  }
+}
