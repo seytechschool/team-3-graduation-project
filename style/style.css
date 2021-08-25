@@ -42,7 +42,7 @@ section {
   width: 80%;
 }
 
-/***** id=home section @Emre Pirci *****/
+/***** id=header section @Emre Pirci *****/
 header {
   background-color: #eee;
   width: 200px;
@@ -178,7 +178,7 @@ header ul li a:hover {
   width: 90%;
 
 }
-.img-about{
+#about .img-about{
   padding-left: 20px;
 
 }
@@ -186,13 +186,13 @@ header ul li a:hover {
 #about {
 display: flex;
 }
-.myinfo{
+#about .myinfo{
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
 }
 
-table{
+#about table{
   text-align: left;
 }
 #about table th{
@@ -208,7 +208,7 @@ table{
   color: white;
   border: none;
   transition: all 0.3s;
-  
+
 
 }
 #about button:hover{
@@ -217,18 +217,18 @@ table{
 }
 
 /****** id=what section @Adilkhan Marzen  ******/
-.container h1, h3{
+#what .container h1, h3{
   text-align: center;
 }
 
-.wrapper{
+#what .wrapper{
   display: flex;
   flex-wrap: wrap;
   height: 400px;
   grid-gap: 30px;
 }
 
-.box{
+#what .box{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,11 +238,11 @@ table{
   font-size: 20px;
   transition: all 0.5s;
   width: 22%;
-  margin: auto; 
+  margin: auto;
   min-height: 50%;
 }
 
-.box:hover{
+#what .box:hover{
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
   margin: 0px;
   border: 1px solid #ff4f00;
@@ -252,40 +252,40 @@ table{
 }
 
 /******  id=experience section @Daniyar Murzaguzhinov ******/
-.experience {
+#experience .experience {
     padding: 50px 0;
 }
 
-.experience-h {
+#experience .experience-h {
     text-align: center;
 }
 
-.experience-grid {
+#experience .experience-grid {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 25px;
     margin: 25px;
 }
 
-.experience-box {
+#experience .experience-box {
     border: solid 1px #eee;
     padding: 20px;
 }
 
-.experience-box:hover {
+#experience .experience-box:hover {
     box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-.experience-box:hover .box-header .box-years {
+#experience .experience-box:hover .box-header .box-years {
     padding: 10px 50px;
     width: 70%;
 }
 
-.box-header {
+#experience .box-header {
     position: relative;
 
 }
-.box-years {
+#experience .box-years {
     display: inline-block;
     padding: 10px;
     background-color: #ff4f00;
@@ -293,7 +293,7 @@ table{
     color: white;
 }
 
-.box-icon {
+#experience .box-icon {
     position: absolute;
     right: 20px;
     top: 0;
@@ -308,22 +308,22 @@ table{
 
 
 /******i d=skills section @Jantai Aidyraliev ******/
-.skills {
+#skills .skills {
   display: flex;
   width: fit-content;
   margin: none;
   text-align: left;
 }
-.skills-box {
+#skills .skills-box {
   display: inline-block;
   width: 44%;
   margin: 20px 0;
 }
-.tech-skills {
+#skills .tech-skills {
   margin: 10px;
   padding: 3px;
 }
-.exp-per1 {
+#skills .exp-per1 {
   font-weight: bold;
   border: solid 1px #eee;
   padding: 5px 10px;
@@ -331,7 +331,7 @@ table{
   background-color: lightgray;
   width: 45%;
 }
-.tech-skills .row-one {
+#skills .tech-skills .row-one {
   background-color: #ff4f00;
   color: white;
   padding: 5px 10px;
@@ -340,7 +340,7 @@ table{
   border: solid 1px #eee;
   width: 40%;
 }
-.exp-per2 {
+#skills .exp-per2 {
   font-weight: bold;
   border: solid 1px #eee;
   padding: 5px 10px;
@@ -348,7 +348,7 @@ table{
   background-color: lightgray;
   width: 10%;
 }
-.tech-skills .row-two {
+#skills .tech-skills .row-two {
   background-color: #ff4f00;
   color: white;
   padding: 5px 10px;
@@ -357,7 +357,7 @@ table{
   border: solid 1px #eee;
   width: 75%;
 }
-.exp-per3 {
+#skills .exp-per3 {
   font-weight: bold;
   border: solid 1px #eee;
   padding: 5px 10px;
@@ -365,7 +365,7 @@ table{
   background-color: lightgray;
   width: 20%;
 }
-.tech-skills .row-three {
+#skills .tech-skills .row-three {
   background-color: #ff4f00;
   color: white;
   padding: 5px 10px;
@@ -374,7 +374,7 @@ table{
   border: solid 1px #eee;
   width: 65%;
 }
-.exp-per4 {
+#skills .exp-per4 {
   font-weight: bold;
   border: solid 1px #eee;
   padding: 5px 10px;
@@ -382,7 +382,7 @@ table{
   background-color: lightgray;
   width: 35%;
 }
-.tech-skills .row-four {
+#skills .tech-skills .row-four {
   background-color: #ff4f00;
   color: white;
   padding: 5px 10px;
@@ -391,7 +391,7 @@ table{
   border: solid 1px #eee;
   width: 50%;
 }
-.exp-per5 {
+#skills .exp-per5 {
   font-weight: bold;
   border: solid 1px #eee;
   padding: 5px 10px;
@@ -399,7 +399,7 @@ table{
   background-color: lightgray;
   width: 5%;
 }
-.tech-skills .row-five {
+#skills .tech-skills .row-five {
   background-color: #ff4f00;
   color: white;
   padding: 5px 10px;
@@ -409,7 +409,7 @@ table{
   width: 80%;
 }
 
-.skills-box .language {
+#skills .skills-box .language {
   display: inline-block;
   width: 40%;
   padding: 20px;
@@ -418,11 +418,11 @@ table{
   transition: all 0.3s;
   margin: 10px;
 }
-.skills-box .language:hover {
+#skills .skills-box .language:hover {
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29);
   margin: 0px;
 }
-.skills-box .language span {
+#skills .skills-box .language span {
   display: inline-block;
   padding: 15px 10px;
   color: white;
@@ -430,3 +430,4 @@ table{
   border-radius: 50px;
   margin-right: 20px;
 }
+
