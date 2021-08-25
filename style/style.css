@@ -15,28 +15,13 @@ section {
   padding: 50px 0;
 }
 
-.info {
-  height: 90vh;
-}
 
-.top {
-  height: 10vh;
-  text-align: center;
-}
 
-.top button {
-  padding: 0.2em 15em;
-  border-radius: 1em;
-  font-size: 1.2em;
-  border: none;
-  background-color: #ff4f00;
-  color: #eee;
-}
 
-.top button:hover {
-  color: white;
-  background-color: black;
-}
+
+
+
+
 
 * h1 {
   font-size: 1.7em;
