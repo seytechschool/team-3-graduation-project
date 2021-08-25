@@ -162,19 +162,58 @@ header ul li a:hover {
 }
 
 /****** id=about section @Aikel Shukurbekova ******/
-img, article{
-  display: inline;
-}
-.abtpic img{
-  width: 350px;
-  float: left;
+#about .myimg{
+  max-width: 50%;
+  flex-basis: 50%;
+
 
 }
-article{
-  width: 50%;
+#about h1{
+  text-align: left;
+  border-bottom: 1px solid black;
+  /* width: 500px; */
+
 }
+#about img{
+  width: 90%;
+
+}
+.img-about{
+  padding-left: 20px;
+
+}
+
+#about {
+display: flex;
+}
+.myinfo{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
 table{
   text-align: left;
+}
+#about table th{
+  font-weight: 600;
+  padding-bottom: 5px;
+  line-height: 25px;
+}
+#about button{
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  background-color:   #ff4f00;
+  color: white;
+  border: none;
+  transition: all 0.3s;
+  
+
+}
+#about button:hover{
+  background-color: black;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.29)
 }
 
 /****** id=what section @Adilkhan Marzen  ******/
