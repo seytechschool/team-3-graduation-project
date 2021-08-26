@@ -223,7 +223,7 @@ h3 {
   margin-top: 7%;
   display: flex;
   flex-wrap: wrap;
-  margin
+  
 }
 
 #what .box {
@@ -235,8 +235,8 @@ h3 {
   font-size: 25px;
   transition: all 0.5s;
   width: 22%;
-  margin: auto;
-  min-height: 50%;
+  margin: 15px;
+  height: 160px;
 }
 
 #what .box:hover {
