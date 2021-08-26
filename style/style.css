@@ -180,6 +180,7 @@ header ul li a:hover {
 }
 #about .img-about {
   padding-left: 20px;
+
 }
 
 #about {
@@ -473,5 +474,23 @@ h3 {
   section{
     margin: 0;
   }
+
+  #about{
+    display: flex;
+    flex-direction: column;
+  }
+  .about .myinfo{
+    margin: auto;
+    width: 90%;
+    /* box-sizing: border-box; */
+    font-size: 10px;
+  }
+  #about h1{
+    border-bottom: none;
+    margin-top: 20px;
+
+  }
+  
+  
   
 }
