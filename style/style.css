@@ -23,6 +23,7 @@ header {
 }
 
 section {
+  margin: 50px;
   padding: 50px 0;
 }
 
@@ -219,10 +220,10 @@ h3 {
 }
 
 #what .wrapper {
+  margin-top: 7%;
   display: flex;
   flex-wrap: wrap;
-  height: 400px;
-  grid-gap: 30px;
+  margin
 }
 
 #what .box {
@@ -231,7 +232,7 @@ h3 {
   align-items: center;
   border: 1px solid #eee;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   transition: all 0.5s;
   width: 22%;
   margin: auto;
@@ -436,6 +437,12 @@ h3 {
 
 /* Common Tablet Screen Resolution-768×1024 – 51.98% */
 
+@media  screen and (max-width: 768px) {
+  #what .wrapper{
+    margin-bottom: 200px;
+  }
+}
+
 /* Common Mobile Screen Resolution-375×640 – 17.91% */
 @media screen and (max-width: 375px) {
   #home {
@@ -447,4 +454,24 @@ h3 {
   #home img {
     text-align: center;
   }
+
+  #what .wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 0;
+
+  }
+
+  #what .box {
+    margin: 15px;
+    flex-basis: 35%;
+    font-size: 18px;
+    height: 180px;
+    width: 150px;
+  }
+
+  section{
+    margin: 0;
+  }
+  
 }
