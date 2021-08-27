@@ -538,7 +538,7 @@ grid-gap: 25px;
   .skills, #experience .experience-grid, #about  {
     display: flex;
     flex-direction: column;
-  
+    box-sizing: border-box;
   }
   /* #about img{
     width: 100%;
@@ -560,6 +560,16 @@ grid-gap: 25px;
 }
   #about button {
       margin:30px auto 0 auto;
+    }
+    #experience .experience-box{
+      width: fit-content;
+    }
+    #experience .experience-grid{
+      margin: 0;
+      box-sizing: border-box;
+    }
+    #experience .experience-box{
+      padding: 0;
     }
 }
 
