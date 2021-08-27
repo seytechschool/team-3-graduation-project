@@ -102,6 +102,7 @@ header ul li a:hover {
   background: url("../img/cover.jpg");
   height: calc(100vh - 150px);
   background-size: cover;
+  margin: 0;
 }
 
 #home img {
