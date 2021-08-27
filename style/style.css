@@ -423,21 +423,21 @@ grid-gap: 25px;
   width: 40%
 }
 #skills .skills-box .tech-skills .row-two:hover{
-  width: 85%
+  width: 75%
 }
 #skills .skills-box .tech-skills .row-three:hover{
-  width: 70%;
+  width: 65%;
 }
 #skills .skills-box .tech-skills .row-four:hover{
   width: 60%;
 }
 #skills .skills-box .tech-skills .row-five:hover{
-  width: 90%;
+  width: 77%;
 }
 
 #skills .skills-box .language {
   display: inline-block;
-  width: 40%;
+  width: 38%;
   padding: 20px;
   border: solid 1px #eee;
   box-sizing: border-box;
