@@ -468,6 +468,11 @@ grid-gap: 25px;
   #what .wrapper{
     margin-bottom: 200px;
   }
+
+  #what .box {
+    margin: 15px;
+    width: 150px;
+  } 
 }
 
 /* Common Mobile Screen Resolution-375×640 – 17.91% */
