@@ -569,7 +569,7 @@ grid-gap: 25px;
       box-sizing: border-box;
     }
     #experience .experience-box{
-      padding: 0;
+      padding: 0px;
     }
 }
 
