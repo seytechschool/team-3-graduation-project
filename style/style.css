@@ -488,6 +488,21 @@ grid-gap: 25px;
     margin: 15px;
     width: 150px;
   } 
+  #skills .skills-box .tech-skills .row-one:hover{
+    width: 30%
+  }
+  #skills .skills-box .tech-skills .row-two:hover{
+    width: 65%
+  }
+  #skills .skills-box .tech-skills .row-three:hover{
+    width: 55%;
+  }
+  #skills .skills-box .tech-skills .row-four:hover{
+    width: 50%;
+  }
+  #skills .skills-box .tech-skills .row-five:hover{
+    width: 67%;
+  }
 }
 
 /* Common Mobile Screen Resolution-375×640 – 17.91% */
@@ -520,5 +535,34 @@ grid-gap: 25px;
   section{
     margin: 0;
   }
-
+  .skills, #experience .experience-grid, #about  {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  /* #about img{
+    width: 100%;
+    margin: auto;
+  } */
+  #about .img-about{
+    width: 375px;
+    padding: 0;
+  }
+  #about h1, p{
+    text-align: center;
+    width: 375px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+  }
+  #about table {
+    text-align: center;
 }
+  #about button {
+      margin:30px auto 0 auto;
+    }
+}
+
+
+
+
