@@ -6,6 +6,8 @@
 
 Preview: https://seytechschool.github.io/team-3-graduation-project/
 
+![resume-responsive](img/demo.gif)
+
 ## What I Learned:
 
 - Simple landing page using **HTML 5, CSS 3 and Flexbox**

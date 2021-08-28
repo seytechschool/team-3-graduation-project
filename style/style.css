@@ -7,13 +7,6 @@ body {
   font-family: "Rambla", sans-serif;
 }
 
-.all-wrapper {
-  /*display: flex;*/
-  /*justify-content: space-between;*/
-  /* max-width: 1600px;
-  margin: 0 auto; */
-}
-
 header {
   width: 300px;
 }
@@ -314,7 +307,6 @@ h3 {
   grid-gap: 10px;
   margin: 0;
   text-align: left;
-
 }
 
 .skills {
@@ -420,19 +412,19 @@ h3 {
   border: solid 1px #eee;
   width: 20%;
 }
-#skills .skills-box .tech-skills .row-one:hover{
-  width: 40%
+#skills .skills-box .tech-skills .row-one:hover {
+  width: 40%;
 }
-#skills .skills-box .tech-skills .row-two:hover{
-  width: 75%
+#skills .skills-box .tech-skills .row-two:hover {
+  width: 75%;
 }
-#skills .skills-box .tech-skills .row-three:hover{
+#skills .skills-box .tech-skills .row-three:hover {
   width: 65%;
 }
-#skills .skills-box .tech-skills .row-four:hover{
+#skills .skills-box .tech-skills .row-four:hover {
   width: 60%;
 }
-#skills .skills-box .tech-skills .row-five:hover{
+#skills .skills-box .tech-skills .row-five:hover {
   width: 77%;
 }
 
@@ -472,16 +464,12 @@ h3 {
   #home {
     margin: 0;
   }
-  #what .wrapper {
-
-  }
-
 }
 
 /* Common Tablet Screen Resolution-768×1024 – 51.98% */
 
-@media  screen and (max-width: 769px) {
-  #what .wrapper{
+@media screen and (max-width: 769px) {
+  #what .wrapper {
     margin-bottom: 200px;
   }
 
@@ -489,27 +477,29 @@ h3 {
     margin: 15px;
     width: 150px;
   }
-  #skills .skills-box .tech-skills .row-one:hover{
-    width: 30%
+  #skills .skills-box .tech-skills .row-one:hover {
+    width: 30%;
   }
-  #skills .skills-box .tech-skills .row-two:hover{
-    width: 65%
+  #skills .skills-box .tech-skills .row-two:hover {
+    width: 65%;
   }
-  #skills .skills-box .tech-skills .row-three:hover{
+  #skills .skills-box .tech-skills .row-three:hover {
     width: 55%;
   }
-  #skills .skills-box .tech-skills .row-four:hover{
+  #skills .skills-box .tech-skills .row-four:hover {
     width: 50%;
   }
-  #skills .skills-box .tech-skills .row-five:hover{
+  #skills .skills-box .tech-skills .row-five:hover {
     width: 67%;
   }
 }
 
 /* Common Mobile Screen Resolution-375×640 – 17.91% */
 @media screen and (max-width: 376px) {
-
-  html, body, .all-wrapper, .all-container {
+  html,
+  body,
+  .all-wrapper,
+  .all-container {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -531,11 +521,10 @@ h3 {
     text-align: center;
   }
 
-  #what .wrapper{
+  #what .wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 0;
-
   }
 
   #what .box {
@@ -546,16 +535,18 @@ h3 {
     width: 150px;
   }
 
-  section{
+  section {
     margin: 0;
   }
-  .skills, #experience .experience-grid, #about  {
+  .skills,
+  #experience .experience-grid,
+  #about {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
   }
 
-  #about .img-about{
+  #about .img-about {
     width: 375px;
     padding: 0;
   }
@@ -567,7 +558,8 @@ h3 {
   #about h1 {
     margin: auto;
   }
-  #about h1, p{
+  #about h1,
+  p {
     text-align: center;
     width: fit-content;
     padding: 15px;
@@ -578,24 +570,20 @@ h3 {
     text-align: center;
   }
   #about button {
-    margin:30px auto 0 auto;
+    margin: 30px auto 0 auto;
   }
   #experience {
     padding: 10px;
   }
 
-  #experience .experience-box{
+  #experience .experience-box {
     width: fit-content;
   }
-  #experience .experience-grid{
+  #experience .experience-grid {
     margin: 0;
     box-sizing: border-box;
   }
-  #experience .experience-box{
+  #experience .experience-box {
     padding: 0;
   }
 }
-
-
-
-
